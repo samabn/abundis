@@ -6,6 +6,7 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+    --header-color: #0f0f0f;
     --font1: "Poppins";
     --font2: "Aladin";
     --font3: "Playfair Display";
@@ -48,7 +49,8 @@ span {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: transparent;
+    /* background: transparent; */
+    background: var(--header-color);
 }
 
 .logo {
