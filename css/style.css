@@ -492,7 +492,27 @@ section {
     width: 45%;
  }
 
- .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+    width: 10%;
+ }
+
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+    width: 10%;
+ }
+
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+    width: 60%;
+ }
+
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
+    width: 60%;
+ }
+
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 40%;
+ }
+
+ .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
     width: 60%;
  }
 
