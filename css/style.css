@@ -619,7 +619,7 @@ section {
     flex-wrap: wrap;
     padding: 2rem 9%;
     /* background: var(--header-color); */
-    border-top: 1px solid var(--main-color);
+    border-top: .2rem solid var(--main-color);
  }
 
  .footer-text {
