@@ -111,6 +111,8 @@ section {
 }
 
 .home-content h1 {
+    position: relative;
+    display: inline-block;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -153,6 +155,7 @@ section {
 }
 
 .home-content p {
+    position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
 }
@@ -287,6 +290,7 @@ section {
 }
 
 .heading {
+    position: relative;
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -713,9 +717,24 @@ section {
     z-index: 98;
  }
 
- .logo .animate, .navbar .animate, #menu-icon .animate {
+ .animate.home-img {
+    width: 50%;
+ }
+
+ .logo .animate, .navbar .animate, #menu-icon .animate, .home.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(.3s * var(--i));
+ }
+
+ .animate.scroll {
+    transition: 1s ease;
+    transition-delay: calc(.3s / var(--i));
+    animation: none;
+ }
+
+ .about.show-animate .animate.scroll {
+    transition-delay: 1s calc(.3s * var(--i));
+    width: 0;
  }
 
 /* MEDIAQUERYS */
@@ -915,4 +934,4 @@ section {
     }
     
 }
-/* 01:31:48 */
+/* 01:46:06 */

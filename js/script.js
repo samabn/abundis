@@ -24,6 +24,11 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
+            //ANIMAR LAS SECCIONES CON EL SCROLL
+            sec.classList.add('show-animate');
+        } else {
+            //ESTO HACE QUE LA ANIMACION SE REPITA CON EL SCROLL
+            sec.classList.remove('show-animate');
         }
     });
 
