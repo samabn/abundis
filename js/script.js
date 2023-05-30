@@ -37,4 +37,8 @@ window.onscroll = () => {
     // REMOVER EL ICONO Y NAVBAR CUANDO SE DE CLICK EN NAVBAR LINKS
     menu_icon.classList.remove('bx-x');
     navbar.classList.remove('active');
+
+    //ANIMACIÓN DEL FOOTER
+    let footer = document.querySelector('footer');
+    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
